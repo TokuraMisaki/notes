@@ -19,11 +19,11 @@ Ribbon 负载均衡策略
   随机
 + **最少并发 BestAvailableRule**  
   选择正在请求中的并发数最小的Provider
-+ **重试 RetryRule**  
++ **重试 RetryRule**  000
   轮询的加强版 如果服务不可用回去尝试其他节点
 + **可用性敏感 AvailablityFilterRule**  
   过滤掉性能差的Provider
-  + 过滤掉Eureka 中一直连接失败的Provider
+  + 过滤掉Eureka 中0一直连接失败的Provider
   + 过滤掉一直处于高并发的Provider
 + **区域敏感 ZoneAvoidanceRule**
   以一个区域为单位考察可用性 对于不可用的区域整个丢弃 如果这个ip区域中一个或多个实例不可达或变慢 都会降低这个ip区域中其他ip选用概率

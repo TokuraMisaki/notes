@@ -1,0 +1,18 @@
+# SpringMVC
+
++   SpringMVC执行流程
+
+``` 
+用户发送请求到前端控制器 DispatcherServlet
+DispatcherServlet收到请求调用处理器映射器HandlerMapping
+HandlerMapping 根据请求url找到具体的处理器Handler 生成处理器执行链HandlerExecutionChain(包括处理器对象和处理器拦截器)一并返回给DispatcherServlet
+DispactherServlet根据Handler获取处理器适配器HandlerAdapter并执行 进行参数封装，数据格式转换，数据验证
+执行处理器Handler(Controller)
+Handler执行完成返回ModelAndView
+HandlerAdapter将Handler执行结果ModelAndView返回到DisaptcherServlet
+DispatcherServlet将ModelAndView传给视图解析器ViewReslover
+ViewResloer解析后返回具体View
+DispatcherServlet对视图进行渲染
+DispatcherServlet响应用户
+```
+

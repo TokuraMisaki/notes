@@ -14,7 +14,7 @@ Feign是Spring Cloud Netflix 组件中一个轻量级RESTful的HTTP服务客户�
 
 ##  Feign远程调用基本流程
 
-​	 Feign远程调用核心就是通过一系列封装和处理,将以Java注解的方式定义的远程调用API接口,最终转换成HTTP的请求形式,将HTTP请求的相应结果,解码成Java Bean,返回给调用者
+ Feign远程调用核心就是通过一系列封装和处理,将以Java注解的方式定义的远程调用API接口,最终转换成HTTP的请求形式,将HTTP请求的相应结果,解码成Java Bean,返回给调用者
 
 
 
