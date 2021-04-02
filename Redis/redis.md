@@ -10,11 +10,11 @@ Redis单线程
 
 ​	*解决方案*：
 
-​	事前：redis高可用，主从复制+哨兵[[哨兵Sentinel]] redus cluster 避免全盘崩溃
+​	事前：redis高可用，主从复制+哨兵[[哨兵Sentinel]] redis cluster 避免全盘崩溃
 
 ​	事中：本地ehcache缓存 + hystrix限流加降级 避免MySql被打死
 
-​	事后： redis持久化 一旦重启 自动从磁盘上加载数据快速恢复缓存数据
+​	事后： [[redis持久化]] 一旦重启 自动从磁盘上加载数据快速恢复缓存数据
 
 **缓存穿透**
 
