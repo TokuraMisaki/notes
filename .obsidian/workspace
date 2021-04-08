@@ -1,0 +1,139 @@
+{
+  "main": {
+    "id": "f9f6c5a58fa2f068",
+    "type": "split",
+    "children": [
+      {
+        "id": "551baf9237aa9133",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Interview/容器.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9fcd3f4d4fa84e3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f821cce407385bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e1a31ab897ef993",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c13f4d3fb30f5446",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b45662262eb7ab4b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5665bedc6a3bd4bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "60d88f419359ff90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4144106d8b1e5571",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Interview/容器.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1b353484a0aec93f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "34ef4d12dcc2c81f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Interview/容器.md"
+              }
+            }
+          },
+          {
+            "id": "0e2d1d5e30acc1db",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "cbe34e2ba68f5a8f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "551baf9237aa9133",
+  "lastOpenFiles": [
+    "Interview/容器.md",
+    "MySQL/MySQL.md"
+  ]
+}

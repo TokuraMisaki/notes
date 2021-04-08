@@ -1,0 +1,19 @@
+{
+  "cSpell.enableFiletypes": [
+    "drawio",
+    "electron-builder-js",
+    "electron-builder-json",
+    "electron-builder-toml",
+    "electron-builder-yaml",
+    "gitignore",
+    "kotlin",
+    "kotlinscript",
+    "lua",
+    "markdown",
+    "powershell",
+    "properties",
+    "sql",
+    "vue",
+    "xml"
+  ]
+}
